@@ -1,0 +1,17 @@
+= Asciidoctor templates example
+
+Quick example showing how to add a custom class to numbers in section titles.
+
+
+== How to run
+
+. Place to the shell in the root folder of this project.
+. Run
+
+ $ asciidoctor -T ./templates demo.adoc  
+ 
+== Known issues
+
+This is an example of what can be done, it is not suitable for final use.
+Some known issues are:
+* Use of `sectanchors` is not correctly treated when `sectnums` is also set.

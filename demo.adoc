@@ -1,0 +1,36 @@
+= Title
+:icons: font
+:toc:
+:sectnums:
+// :sectanchors:
+// :sectlinks:
+:lang: es
+
+This is a *preamble*.
+
+== adminitions
+
+IMPORTANT: Here here!!
+
+== Section 11
+
+\{docname} is {docname} +
+\{outfilesuffix} is {outfilesuffix}
+
+Some text.
+
+NOTE: Hello
+
+=== Sub-Section 1
+
+Section 1
+
+[appendix]
+==== Sub-Section 2
+
+Section 2
+
+== Section 2
+
+Some text {att}
+

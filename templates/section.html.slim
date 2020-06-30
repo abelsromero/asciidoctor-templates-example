@@ -1,0 +1,16 @@
+*{tag: %(h#{level + 1}), id: id, class: 'my-class'}
+  - if id && (document.attr? :sectnums)
+    span(class="title-num") =sectnum
+    =captioned_title
+  - elsif id && (document.attr? :sectanchors)
+    a.anchor href="##{id}"
+    span(class="title-num") =sectnum
+    =captioned_title
+  - elsif id && (document.attr? :sectlinks)
+    a.link href="##{id}" =captioned_title
+  - else
+    =captioned_title
+- if level == 1
+  .sectionbody =content
+- else
+  =content
